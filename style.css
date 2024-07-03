@@ -1,0 +1,71 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #e0eafc, #cfdef3);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+form {
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+form:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+form i {
+    margin-right: 10px;
+}
+
+#results p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+button {
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+#costChart {
+    margin-top: 30px;
+}
+
+.slider-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.slider-container .form-range {
+    width: 100%;
+}
+
+#yearlyCosts .card {
+    margin: 10px 0;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+#yearlyCosts .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
